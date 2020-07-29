@@ -1,0 +1,12 @@
+package clinic.programming;
+
+public class Application {
+    public Application() {
+        System.out.println("Application initializer");
+    }
+
+    public static void main(String [] args) {
+        System.out.println("Starting Application");
+        Application app = new Application();
+    }
+}
